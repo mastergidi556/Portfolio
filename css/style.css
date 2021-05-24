@@ -1,0 +1,9 @@
+.d-block{
+   width: 60px;
+   height: 40px;
+}
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
