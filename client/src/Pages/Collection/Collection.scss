@@ -1,0 +1,22 @@
+.collection-page {
+    display: flex;
+    flex-direction: column;
+  
+    .title {
+      font-size: 38px;
+      margin: 0 auto 30px;
+    }
+  
+    .items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      // grid-gap: 10px;
+  
+      & .collection-item {
+        margin: 30px 5px;
+        // width: 250px;
+      }
+    }
+}
+  
